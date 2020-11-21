@@ -1,30 +1,31 @@
+/*--creates the containers in the website*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* The body background is given white*/
 body {
     background-color: #d9dcd6;
 }
-
-.header {
+/*These are the blocks and are embeded with the links*/
+.main {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header h1 {
+/*colors given to the headings of class main*/
+.main h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.main h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+.main nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.main nav ul {
     list-style-type: none;
 }
-
-.header div ul li {
+/*these are embeded with the links*/
+.main nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*this where the image goes and the resolution is set as below*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +59,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*this is the orientation of containers in webpage*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -115,7 +116,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*images goes here*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*this is the box for one of 3 links */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +143,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*second block */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +161,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*the images for the 3 links are given here*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -187,14 +188,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer {
+/*this is footer of section, copy wright are provided here*/
+.last {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+.last h2 {
     font-size: 20px;
 }
